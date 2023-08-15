@@ -29,4 +29,19 @@ index.js
 - Importing express `import express from "express";`
 - Creating an express app `const app = express();`
 - Defining a port number `const PORT = 3000;`
-- Defining a get request
+- Defining a get request 
+
+```
+// setting up a HTTP get request
+app.get("/", (req, res) =>
+  res.send(`Node and express server is running on port ${PORT}`)
+);
+```
+
+- Defining a listner to the server
+
+```
+// Start a server that listens for incoming network requests on a specific port
+app.listen(PORT, () => console.log(`Your server is running on port ${PORT}`));
+``` 
+
