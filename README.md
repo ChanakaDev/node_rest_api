@@ -9,11 +9,13 @@
 - adding .babelrc file
 - adding following code to the `.babelrc` file
 
-`{
+```
+{
     "presets" : [
         "@babel/preset-env"
     ]
-}`
+}
+```
 
 - adding index.js file
 - adding `"start": "nodemon ./index.js --exec babel-node"` line to the `package.json`
