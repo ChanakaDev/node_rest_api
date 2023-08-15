@@ -48,4 +48,6 @@ app.listen(PORT, () => console.log(`Your server is running on port ${PORT}`));
 - Install nodemon `npm install -g nodemon`
 - Running project on the local server `npm start`
 
+- If you type `localhost:3000` in the web browser or postman, now you can see the result of your '/' get request
+
 
